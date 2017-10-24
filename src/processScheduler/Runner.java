@@ -16,6 +16,7 @@ public class Runner {
 		String proName;
 		int choice;
 		int quantum;
+		int avgTime;
 
 		System.out.println("Process Scheduler");
 		System.out.println("=================");
@@ -53,6 +54,7 @@ public class Runner {
 			break;
 		case 2:
 			// run First come first serve
+			avgTime = Scheduler.fcfs(Process[]);
 			break;
 		case 3:
 			// run shortest job first

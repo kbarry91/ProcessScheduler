@@ -5,7 +5,15 @@ package processScheduler;
 
 public class Scheduler {
 	
-	public void FCFS{
+	public static double fcfs(Process[] ){
+		int waitTime = 0;
+		
+		for(int i=0 ; i < Process.length() ;i++){
+			
+		}
+	
+		return totalWait / processes.size();
+		return 0;
 		
 	}//FCFS
 	
